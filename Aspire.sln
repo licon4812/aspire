@@ -603,6 +603,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitForSandbox.DbSetup", "playground\waitfor\WaitForSandbox.DbSetup\WaitForSandbox.DbSetup.csproj", "{37BC5B4A-3F96-4BB0-92E6-81666F4324E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitForSandbox.Common", "playground\waitfor\WaitForSandbox.Common\WaitForSandbox.Common.csproj", "{F0C976EF-EE26-4EA9-B324-0CD21DCEA140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.Hosting.SurrealDB", "src\Aspire.Hosting.SurrealDB\Aspire.Hosting.SurrealDB.csproj", "{129E8EBD-277D-4567-A532-DDF1476FB3B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1590,6 +1591,10 @@ Global
 		{F0C976EF-EE26-4EA9-B324-0CD21DCEA140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0C976EF-EE26-4EA9-B324-0CD21DCEA140}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0C976EF-EE26-4EA9-B324-0CD21DCEA140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129E8EBD-277D-4567-A532-DDF1476FB3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129E8EBD-277D-4567-A532-DDF1476FB3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129E8EBD-277D-4567-A532-DDF1476FB3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129E8EBD-277D-4567-A532-DDF1476FB3B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1881,6 +1886,7 @@ Global
 		{C554C480-3DA7-4D62-A09A-3F3F743D7A66} = {3FF3F00C-95C0-46FC-B2BE-A3920C71E393}
 		{37BC5B4A-3F96-4BB0-92E6-81666F4324E4} = {3FF3F00C-95C0-46FC-B2BE-A3920C71E393}
 		{F0C976EF-EE26-4EA9-B324-0CD21DCEA140} = {3FF3F00C-95C0-46FC-B2BE-A3920C71E393}
+		{129E8EBD-277D-4567-A532-DDF1476FB3B9} = {B80354C7-BE58-43F6-8928-9F3A74AB7F47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6DCEDFEC-988E-4CB3-B45B-191EB5086E0C}
